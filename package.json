@@ -1,0 +1,53 @@
+{
+  "name": "docker-vue",
+  "version": "0.1.0",
+  "description": "Single page application built with Vue.js",
+  "author": "Georg Ledermann <mail@georg-ledermann.de>",
+  "homepage": "https://github.com/ledermann/docker-vue",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development --open",
+    "build": "vue-cli-service build --mode production",
+    "test": "vue-cli-service test:unit --mode development",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.21",
+    "@fortawesome/free-brands-svg-icons": "^5.10.1",
+    "@fortawesome/free-solid-svg-icons": "^5.10.1",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "actioncable": "^5.2.3",
+    "axios": "^0.19.0",
+    "buefy": "^0.8.2",
+    "debounce": "^1.1.0",
+    "dotenv": "^8.0.0",
+    "es6-promise": "^4.2.8",
+    "global-package-version": "^1.1.0",
+    "jwt-decode": "^2.2.0",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.0.2",
+    "vue-infinite-loading": "^2.4.4",
+    "vue-pell-editor": "^2.0.1",
+    "vue-router": "^3.1.2",
+    "vue-silentbox": "^0.1.9",
+    "vue-timeago": "^5.1.2",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-plugin-unit-mocha": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "chai": "^4.1.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.2.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
